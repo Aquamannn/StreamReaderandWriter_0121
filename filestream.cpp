@@ -36,8 +36,14 @@ int main() {
 	if (infile.is_open())
 	{
 		//melakukan perulangan setiap baris
+		while (getline(infile, baris))
+		{
+			//dan tampilkan disin
+			cout << baris << '\n';
+		}
 		
 	}
+	
 
 
 }
