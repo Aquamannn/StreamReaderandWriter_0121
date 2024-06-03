@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	try {
+		cout << "Selamat belajar di prodi TI UMY" << endl;
+		cout << "Pertanyan tidak akan di eksekusi" << endl;
+	}
+	catch (int a) {
+		cout << "Pengecualian akan di eksekusi" << endl;
+	}
+	catch (...) {
+		cout << "default pengecualian di eksekusi" << endl;
+	}
+	return 0;
+}
